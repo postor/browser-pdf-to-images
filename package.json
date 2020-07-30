@@ -1,0 +1,27 @@
+{
+  "name": "browser-pdf-to-images",
+  "version": "1.0.0",
+  "description": "convert pdf pages to images",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/postor/browser-pdf-to-images.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/postor/browser-pdf-to-images/issues"
+  },
+  "homepage": "https://github.com/postor/browser-pdf-to-images#readme",
+  "dependencies": {
+    "pdfjs-dist": "^2.4.456"
+  },
+  "devDependencies": {
+    "@types/pdfjs-dist": "^2.1.5"
+  }
+}
