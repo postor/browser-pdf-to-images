@@ -1,6 +1,6 @@
 {
   "name": "browser-pdf-to-images",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "convert pdf pages to images",
   "main": "dist/index.js",
   "scripts": {
