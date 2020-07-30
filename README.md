@@ -3,7 +3,9 @@
 convert pdf pages to images
 
 ```
-import pdf2images from 'browser-pdf-to-images'
+import { file2images } from 'browser-pdf-to-images'
 
-pdf2images().then(images=>console.log(images))
+file2images(input.files[0]).then(images=>console.log(images))
+
+// ['data:image/png;base64,/9j/4AAQSkZJRg...','data:image/png;base64,/9j/4AAQSkZJRg...']
 ```
