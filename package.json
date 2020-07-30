@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/postor/browser-pdf-to-images#readme",
   "dependencies": {
-    "pdfjs-dist": "^2.4.456"
+    "pdfjs-dist": "^2.4.456",
+    "typescript": "^3.9.7"
   },
   "devDependencies": {
     "@types/pdfjs-dist": "^2.1.5"
